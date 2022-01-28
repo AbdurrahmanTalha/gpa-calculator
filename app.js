@@ -45,8 +45,9 @@ for(let i = 0; i < students.length; i++){
 }
 
 // Output
-// { name: 'Alex', marks: 95, grade: 'Golden A+' }
-// { name: 'John', marks: 85, grade: 'A+' }
-// { name: 'James', marks: 79, grade: 'A' }
-// { name: 'Mary', marks: 65, grade: 'B' }
-// { name: 'Robert', marks: 48, grade: 'F' }
+{ name: 'Alia', marks: 95, grade: 'A+' }
+{ name: 'Dalia', marks: 66, grade: 'C' }
+{ name: 'Salia', marks: 80, grade: 'A' }
+{ name: 'Malia', marks: 59, grade: 'D' }
+{ name: 'Lilia', marks: 47, grade: 'F' }
+{ name: 'Jalaia', marks: 77, grade: 'B' }

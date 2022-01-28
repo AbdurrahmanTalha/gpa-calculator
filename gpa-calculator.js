@@ -14,7 +14,7 @@
 
 // ৬) যারা ৯০ বা তার উপরে পেয়েছে, তাদের grade A+.
 
- 
+
 
 // প্রাকটিস প্রব্লেম-২: 
 
@@ -22,7 +22,7 @@
 
 const students = [
     {
-        name: 'Alia', 
+        name: 'Alia',
         marks: 95
     },
     {
@@ -34,7 +34,7 @@ const students = [
         marks: 80
     },
     {
-        name: 'Malia', 
+        name: 'Malia',
         marks: 59
     },
     {
@@ -47,20 +47,20 @@ const students = [
     }
 ];
 
-for(let i = 0; i < students.length; i++){
-    if(students[i].marks < 50){
+for (let i = 0; i < students.length; i++) {
+    if (students[i].marks < 50) {
         students[i].grade = 'F'
-    }else if(students[i].marks < 60){
+    } else if (students[i].marks < 60) {
         students[i].grade = 'D'
-    }else if(students[i].marks < 70){
+    } else if (students[i].marks < 70) {
         students[i].grade = 'C'
-    }else if(students[i].marks < 80){
+    } else if (students[i].marks < 80) {
         students[i].grade = 'B'
-    }else if(students[i].marks < 90){
+    } else if (students[i].marks < 90) {
         students[i].grade = 'A'
-    }else if(students[i].marks <= 100){
+    } else if (students[i].marks <= 100) {
         students[i].grade = 'A+'
-    }else {
+    } else {
         students[i].grade = 'Invalid Marks'
     }
     console.log(students[i]);
@@ -73,3 +73,43 @@ for(let i = 0; i < students.length; i++){
 // { name: 'Malia', marks: 59, grade: 'D' }
 // { name: 'Lilia', marks: 47, grade: 'F' }
 // { name: 'Jalaia', marks: 77, grade: 'B' }
+
+const afnan = {
+    name: "Afnan Ferdousi",
+    isStudent: true,
+    age: 16,
+    class: "Acca part-1",
+    address: "sylhet"
+}
+const talha = {
+    name: "Abdur Rahman Talha",
+    isStudent: true,
+    age: 11,
+    class: "Web Development",
+    address: "sylhet"
+}
+console.log(talha.age);
+
+// const familyMembers =[afnan,talha];
+const familyMembers = [
+    {
+        name: "Afnan Ferdousi",
+        isStudent: true,
+        age: 16,
+        class: "Acca part-1",
+        address: "sylhet"
+    },
+    {
+        name: "Abdur Rahman Talha",
+        isStudent: true,
+        age: 11,
+        class: "Web Development",
+        address: "sylhet"
+    }
+];
+
+console.log(familyMembers.indexOf(talha));
+console.log(students[0].name)
+console.log(students[1].marks)
+familyMembers[0].class="Acca part-2";
+console.log(familyMembers[0].class);
